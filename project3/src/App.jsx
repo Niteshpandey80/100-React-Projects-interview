@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+//Project 3 toggle app
+
 const App = () => {
   const [darkMode , setDarkMode] = useState(false);
   const toggleTheme =()=>{
@@ -14,5 +16,5 @@ const App = () => {
    </div>
   )
 }
-
+  
 export default App
