@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
        <div className={`h-screen flex flex-col items-center justify-center ${dark ? "bg-black text-white " : "bg-white text-black"} `}>
-         <h1 className={`text-xl ${ dark ? 'text-white ' : 'text-black'}`}>This is toggle </h1>
+         <h1 className={`text-xl ${ dark ? 'text-white ' : 'text-black'}`}>Light Mode and Dark Mode  </h1>
          <button className={`mt-5 rounded px-4 py-3 ${dark ? "bg-white text-black " : "bg-black text-white"}`} onClick={handleToggle} >Toggle Button</button>
        </div>
   )
