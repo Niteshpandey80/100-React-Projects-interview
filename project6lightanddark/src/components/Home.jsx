@@ -9,13 +9,7 @@ const Home = () => {
        }
     },[])
     const handleToggle = ()=>{
-        if(dark){
-            localStorage.setItem('theme' , 'light');
-            setDark(false)
-        }else{
-            localStorage.setItem('theme' , 'dark');
-            setDark(true)
-        }
+       
     }
 
   return (
