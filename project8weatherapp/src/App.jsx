@@ -96,7 +96,12 @@ const App = () => {
                   </p>
                 </div>
 
-               
+                <div className='bg-white/20 rounded-2xl p-4'>
+                  <h3 className='font-bold text-lg'>Wind</h3>
+                  <p className='text-2xl'>
+                    {weather.wind.speed} km/h
+                  </p>
+                </div>
 
               </div>
 
