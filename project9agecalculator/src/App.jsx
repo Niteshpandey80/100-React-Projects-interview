@@ -5,7 +5,22 @@ const App = () => {
   const [dob, setDob] = useState("")
   const [age, setAge] = useState(null)
 
-  
+  const calculateAge = () => {
+
+    if (!dob) return
+    const birthDate = new Date(dob)
+    const today = new Date()
+    let years = today.getFullYear() - birthDate.getFullYear()
+    const month = today.getMonth() - birthDate.getMonth()
+    if (
+      month < 0 ||
+      (month === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      years--
+    }
+
+    setAge(years)
+  }
 
   return (
     <div className='h-screen flex items-center justify-center bg-gray-100'>
