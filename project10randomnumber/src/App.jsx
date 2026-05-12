@@ -17,7 +17,11 @@ const App = () => {
           />
         </div>
         <h1 className='text-4xl font-bold text-gray-800 mb-6'>Random Number </h1>
-       
+        <div className='bg-blue-100 rounded-2xl py-8 mb-6'>
+           <h2 className='text-6xl font-bold text-blue-700'>
+             {number}
+          </h2>
+        </div>
         <button className='bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg font-semibold transition-all' onClick={generateNumber}>Generate Number </button>
          </div>
     </div>
