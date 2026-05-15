@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='flex text-white gap-10  '>
           <h3>HOME</h3>
           <h3>ABOUT</h3>
-          <h3>CONTACT</h3>  
+          <h3>CONTACT US</h3>  
           <h3>HELP</h3>
         </div>
     </div>
